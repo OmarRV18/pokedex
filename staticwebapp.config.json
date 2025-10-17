@@ -7,7 +7,8 @@
         "X-Content-Type-Options": "nosniff",
         "Referrer-Policy": "strict-origin-when-cross-origin",
         "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
-        "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
+        "Permissions-Policy": "geolocation=(), microphone=(), camera=()",
+        "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https: https://raw.githubusercontent.com https://pokeapi.co; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https://pokeapi.co"
       }
     }
   ]
